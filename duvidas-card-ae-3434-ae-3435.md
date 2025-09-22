@@ -19,6 +19,10 @@
 - "Esse evento é cadastrado como Odd Suprema pela falta de um tipo especifico de evento;" - isso vai parar quando o esporte "VAR" for adicionado, certo?
 - Existirá um esporte "VAR" pra cada tipo de esporte?
 - Pq não é possível cadastrar todos os tipos de evento no PAM?
+- "Apostas do VAR devem aceitar apenas UM evento por aposta". Isso significa que mesmo no criar aposta só posso ter um evento do tipo VAR? Também não vou poder criar apostas com futebol e VAR né (básico da regra já hoje)?
+-  "Para o árbitro revisar algum lance na cabine do VAR" é considerada ganha? -> Tanto faz se for o VAR que chamar o árbitro ou ele que pedir revisão, certo?
+-  E se o árbitro for chamado pelo VAR, mas ignorar o chamado e não for à cabine?
+-  Como informaremos visualmente ao usuário que uma aposta VAR não permite múltiplas ou cashout? Hoje já não temos em nenhum lugar que não é possível fazer cashout de criar aposta (nem mesmo nos termos de uso), e sobre o novo tipo VAR?
 
 ### Não entendi o ponto da sessão "Onde mede o impacto", ela é direcionada aos POs/analistas/dados?
 
@@ -28,6 +32,7 @@
 ### "Apenas para jogos pré match, ao vivo não."
 
 - Ou seja, logo que o jogo começa existe uma validação que não deixa mais os usuários verem/apostarem nas apostas de VAR né
+- O que acontece se um usuário adicionar uma aposta VAR ao carrinho, não finalizar a aposta, e o jogo começar?
 
 ## Como é feita a validação?
 
