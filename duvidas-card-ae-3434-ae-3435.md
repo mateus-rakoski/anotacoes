@@ -1,4 +1,4 @@
-# O que não entendi sobre o card AE-3434 [Back] adicionar o esporte "VAR" para ser exibido no carrossel nos detalhes do evento
+# O que não entendi sobre os cards AE-3434 [Back] e AE-3435 [Front] adicionar o esporte "VAR" para ser exibido no carrossel nos detalhes do evento
 
 ## Descrição do card:
 
@@ -28,5 +28,10 @@
 ### "Apenas para jogos pré match, ao vivo não."
 
 - Ou seja, logo que o jogo começa existe uma validação que não deixa mais os usuários verem/apostarem nas apostas de VAR né
-- 
 
+## Como é feita a validação?
+
+- Como seria feita a validação de um card de back-end? somente cadastrando/deixando certos os pré-requisitos pra ter o retorno da API que está especificado no card em critérios ténicos já?
+- Como é feita a validação de um card de front-end? existem testes em cypress/automações?
+- Regras de negócio incorretas é pra apontarmos no card do back-end ou no de front-end?
+- Os planos de teste criamos a partir dos critérios de aceite e do refinamento, certo?
